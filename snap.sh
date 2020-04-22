@@ -1,7 +1,7 @@
 #!/bin/bash
 #cd /root/snap2html/DiogenesList-master/
 #python /root/snap2html/DiogenesList-master/diogeneslist.py /root/rclone/00 index
-sed -i "s#\[LINK ROOT\]#http://wellsyue.tk/剧集#g"  /root/snap2html/DiogenesList-master/index.html
+sed -i "s#\[LINK ROOT\]#https://wellsyue.tk/#g"  /root/snap2html/DiogenesList-master/index.html
 sed -i "s#\[LINK PROTOCOL\]##g"  /root/snap2html/DiogenesList-master/index.html
 sed -i "s#\[SOURCE ROOT\]##g"  /root/snap2html/DiogenesList-master/index.html
 sed -i "s#\\\\\\\mnt\\\\\\\rclone\\\\\\\film##g"  /root/snap2html/DiogenesList-master/index.html
